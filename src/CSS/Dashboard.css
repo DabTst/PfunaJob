@@ -1,0 +1,123 @@
+/* Dashboard.css */
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background: linear-gradient(135deg, #4caf50, #2e7d32);
+  color: rgb(161, 91, 91);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+  color: #f1f1f1;
+}
+
+.sidebar button {
+  background: none;
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  font-size: Bold;
+  text-align: left;
+  font-size: 16px;
+}
+
+.sidebar .logout-btn {
+  margin-top: auto;
+  background: red;
+  border-radius: 5px;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Formulário de Partilha */
+.share-container,
+.search-container {
+  background: white;
+  padding: 50px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  margin: auto;
+}
+
+.search-container input {
+  margin: 20px;
+  /*padding: 6px;*/
+  padding: 7px 29px;
+}
+
+.search-container input::placeholder {
+  font-size: 13px;
+  padding: 0;
+}
+
+.search-container button {
+  background-color: #1b5e20;
+  color: #fff;
+  font-weight: 900;
+  padding: 6px;
+  border-radius: 10px;
+  border: none;
+}
+
+.search-container button:hover {
+  transform: translateY(1px);
+  cursor: pointer;
+}
+
+.form input,
+.form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form button {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(90deg, #2e7d32, #66bb6a);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 900;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background: linear-gradient(90deg, #1b5e20, #43a047);
+}
+
+/* Resultados da pesquisa */
+.results {
+  margin-top: 20px;
+}
+
+.work-card {
+  background: #f1f1f1;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.work-card:hover {
+  border: 1px solid black;
+}
+
+.work-card a {
+  color: #2e7d32;
+  text-decoration: none;
+}
